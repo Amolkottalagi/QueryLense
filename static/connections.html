@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Database connections · SQL assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/style.css">
+<script src="/static/js/theme.js"></script>
+</head>
+<body data-page="connections" data-access="user" data-layout="app">
+<a class="skip" href="#main">Skip to content</a>
+<div id="root"></div>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+<dialog id="modal" class="modal" aria-labelledby="modalTitle"><div class="modal-head"><h2 id="modalTitle"></h2><button class="icon-btn" id="modalClose" type="button" aria-label="Close">✕</button></div><div class="modal-body" id="modalBody"></div><div class="modal-foot" id="modalFoot" hidden></div></dialog>
+<noscript>This app needs JavaScript to run.</noscript>
+<script src="/static/js/i18n.js"></script>
+<script src="/static/js/app.js"></script>
+<script src="/static/js/connections.js"></script>
+</body>
+</html>

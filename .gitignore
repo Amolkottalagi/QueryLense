@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.log
+scripts/e2e_shots/
+
+# User-managed SQLite targets (database files may contain private data)
+data/user_dbs/*.db
