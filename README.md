@@ -16,7 +16,7 @@ source .venv/bin/activate            # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 python -m backend.setup_db           # asks for your MySQL admin password and creates an app administrator
-python run.py                        # open http://127.0.0.1:8000
+python run.py                        # open 
 ```
 
 `setup_db` creates `app_db` (the app's tables), `shop_db` (sample data the AI answers questions about), two MySQL
